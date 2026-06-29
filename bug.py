@@ -38,5 +38,10 @@
 #     print("zero error")
 # except ValueError:
 #     print("error ok")
-score = int(input("enter score:"))
-print("your score is", score)
+try:
+    score = int(input("enter score:"))
+    print("your score is", score)
+except ValueError:
+    print("invalid score")
+finally:
+    print("check finished")
