@@ -83,9 +83,14 @@
 #     print("only numbers allowed")
 # finally:
 #     print("calculate closed")
-celsius = input("celsius")
+# celsius = input("celsius")
+# try:
+#     fahrenheit = int(celsius) * 9 / 5 + 32
+#     print(fahrenheit)
+# except ValueError:
+#     print("temperature must be a number")
+word = input("enter word")
 try:
-    fahrenheit = int(celsius) * 9 / 5 + 32
-    print(fahrenheit)
-except ValueError:
-    print("temperature must be a number")
+    print(word[0])
+except IndexError:
+    print("word is empty")
