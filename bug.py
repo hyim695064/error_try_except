@@ -26,15 +26,17 @@
 #     print(prices[item])
 # except KeyError:
 #     print("item not found")
-numbers = [100, 200, 300]
-try:
-    index = int(input("choose index:"))
-    divider = int(input("choose divider"))
-    result = numbers[index]/divider
-    print(result)
-except IndexError:
-    print("error is fine")
-except ZeroDivisionError:
-    print("zero error")
-except ValueError:
-    print("error ok")
+# numbers = [100, 200, 300]
+# try:
+#     index = int(input("choose index:"))
+#     divider = int(input("choose divider"))
+#     result = numbers[index]/divider
+#     print(result)
+# except IndexError:
+#     print("error is fine")
+# except ZeroDivisionError:
+#     print("zero error")
+# except ValueError:
+#     print("error ok")
+score = int(input("enter score:"))
+print("your score is", score)
