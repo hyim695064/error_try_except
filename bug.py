@@ -89,8 +89,15 @@
 #     print(fahrenheit)
 # except ValueError:
 #     print("temperature must be a number")
-word = input("enter word")
-try:
-    print(word[0])
-except IndexError:
-    print("word is empty")
+# word = input("enter word")
+# try:
+#     print(word[0])
+# except IndexError:
+#     print("word is empty")
+scores = [90, 80, 100]
+total = 0
+for score in scores:
+    #total = score 
+    total += score
+averege = total / len(scores)
+print(averege)
