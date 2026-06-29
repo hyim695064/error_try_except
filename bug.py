@@ -56,10 +56,21 @@
 # final_price = price - (price * discount / 100)
 # print(final_price)
 # print(discount/ 100)
-password = "abc123"
-guess = input("enter password")
-print("guess:", guess, "passsword:",password)
-if guess == password:
-    print("login successful")
-else:
-    print("wrong password")
+# password = "abc123"
+# guess = input("enter password")
+# print("guess:", guess, "passsword:",password)
+# if guess == password:
+#     print("login successful")
+# else:
+#     print("wrong password")
+num1 = int(input("number1"))
+op = input("operafor")
+num2 = int(input("number 2"))
+if op == "+":
+    print(num1+num2)
+elif op =="-":
+    print(num1-num2)
+elif op =="*":
+    print(num1*num2)
+elif op == "/":
+    print(num1/num2)
