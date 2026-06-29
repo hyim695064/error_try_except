@@ -51,8 +51,15 @@
 # else:
 #     print("welcome user")
 # #syntax error 
-price = 100
-discount = 20
-final_price = price - (price * discount / 100)
-print(final_price)
-print(discount/ 100)
+# price = 100
+# discount = 20
+# final_price = price - (price * discount / 100)
+# print(final_price)
+# print(discount/ 100)
+password = "abc123"
+guess = input("enter password")
+print("guess:", guess, "passsword:",password)
+if guess == password:
+    print("login successful")
+else:
+    print("wrong password")
