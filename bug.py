@@ -84,5 +84,8 @@
 # finally:
 #     print("calculate closed")
 celsius = input("celsius")
-fahrenheit = int(celsius) * 9 / 5 + 32
-print(fahrenheit)
+try:
+    fahrenheit = int(celsius) * 9 / 5 + 32
+    print(fahrenheit)
+except ValueError:
+    print("temperature must be a number")
