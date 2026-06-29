@@ -38,10 +38,16 @@
 #     print("zero error")
 # except ValueError:
 #     print("error ok")
-try:
-    score = int(input("enter score:"))
-    print("your score is", score)
-except ValueError:
-    print("invalid score")
-finally:
-    print("check finished")
+# try:
+#     score = int(input("enter score:"))
+#     print("your score is", score)
+# except ValueError:
+#     print("invalid score")
+# finally:
+#     print("check finished")
+name = input("enter your name")
+if name == "admin":
+    print("welcome admin")
+else:
+    print("welcome user")
+#syntax error 
