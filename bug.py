@@ -63,23 +63,26 @@
 #     print("login successful")
 # else:
 #     print("wrong password")
-try:
-    num1 = int(input("number1"))
-    op = input("operafor")
-    num2 = int(input("number 2"))
-    if op == "+":
-        print(num1+num2)
-    elif op =="-":
-        print(num1-num2)
-    elif op =="*":
-        print(num1*num2)
-    elif op == "/":
-        print(num1/num2)
-    else:
-        print("unknown operator")
-except ZeroDivisionError:
-    print("no zero numbers")
-except ValueError:
-    print("only numbers allowed")
-finally:
-    print("calculate closed")
+# try:
+#     num1 = int(input("number1"))
+#     op = input("operafor")
+#     num2 = int(input("number 2"))
+#     if op == "+":
+#         print(num1+num2)
+#     elif op =="-":
+#         print(num1-num2)
+#     elif op =="*":
+#         print(num1*num2)
+#     elif op == "/":
+#         print(num1/num2)
+#     else:
+#         print("unknown operator")
+# except ZeroDivisionError:
+#     print("no zero numbers")
+# except ValueError:
+#     print("only numbers allowed")
+# finally:
+#     print("calculate closed")
+celsius = input("celsius")
+fahrenheit = int(celsius) * 9 / 5 + 32
+print(fahrenheit)
