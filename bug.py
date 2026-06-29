@@ -13,9 +13,16 @@
 # except ZeroDivisionError:
 #     print("dont divide by zero")
 
-numbers = [10, 20, 30]
-index = int(input("choose index:"))
+# numbers = [10, 20, 30]
+# index = int(input("choose index:"))
+# try:
+#     print(numbers[index])
+# except IndexError:
+#     print("index not found")
+
+prices = {"apple": 3, "banana": 5}
+item = input("enter item:")
 try:
-    print(numbers[index])
-except IndexError:
-    print("index not found")
+    print(prices[item])
+except KeyError:
+    print("item not found")
