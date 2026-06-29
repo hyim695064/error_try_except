@@ -45,9 +45,14 @@
 #     print("invalid score")
 # finally:
 #     print("check finished")
-name = input("enter your name")
-if name == "admin":
-    print("welcome admin")
-else:
-    print("welcome user")
-#syntax error 
+# name = input("enter your name")
+# if name == "admin":
+#     print("welcome admin")
+# else:
+#     print("welcome user")
+# #syntax error 
+price = 100
+discount = 20
+final_price = price - (price * discount / 100)
+print(final_price)
+print(discount/ 100)
